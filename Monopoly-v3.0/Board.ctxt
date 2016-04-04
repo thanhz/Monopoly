@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Board()
+comment1.params=num
+comment1.target=Squares\ getSquare(int)
+comment2.params=num
+comment2.target=java.lang.String\ getSquareName(int)
+comment3.params=name
+comment3.target=java.lang.String\ getSquareName(java.lang.String)
+comment4.params=num
+comment4.target=void\ doAction(int)
+comment5.params=
+comment5.target=void\ getAllSquare()
+numComments=6
