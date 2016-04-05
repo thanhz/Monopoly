@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=cost
+comment0.target=BuyCommand(int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ BuyCommand\r\n
+comment1.params=
+comment1.target=void\ execute()
+numComments=2
