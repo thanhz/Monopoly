@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=FreeParking(java.lang.String)
+comment1.params=
+comment1.target=void\ addMoney()
+comment2.params=
+comment2.target=int\ getMoney()
+comment3.params=player
+comment3.target=void\ doAction(Player)
+comment4.params=
+comment4.target=java.lang.String\ toString()
+numComments=5
