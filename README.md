@@ -5,6 +5,7 @@ By Thanh Lam
 
 Monopoly v6.0 26/03/2016
 - Created UI class to simulate gameplay
+- added a decrementMoney() method to avoid confusion
 - added toString method to player class
 - changed parameter to string on monpoly getcurrent() from Player param
 - added askbuyer method is Monopoly class
@@ -14,6 +15,7 @@ Monopoly v6.0 26/03/2016
 - added hasWinner() method in Monopoly class
 - added getWinner() method in Monopoly class
 - added gameOver() method in Monopoly class
+- Tax subclass now added money to freeparking subclass
 
 Monopoly v5.0 23/03/2016
 - Implemented some of the subclass methods
