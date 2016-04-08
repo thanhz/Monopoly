@@ -3,6 +3,9 @@ Creation of the Monopoly board game using java
 
 By Thanh Lam
 
+Monopoly v5.0 23/03/2016
+-Implemented some of the subclass methods
+
 Monopoly v4.0 /20/03/2016 
 -Experimented with using command pattern for implementing subclass methods
 
