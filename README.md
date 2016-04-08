@@ -13,19 +13,19 @@ Monopoly v6.0 26/03/2016
 - -added jail boolean field in player
 - added hasWinner() method in Monopoly class
 - added getWinner() method in Monopoly class
-- -added gameOver() method in Monopoly class
+- added gameOver() method in Monopoly class
 
 Monopoly v5.0 23/03/2016
--Implemented some of the subclass methods
+- Implemented some of the subclass methods
 
 Monopoly v4.0 /20/03/2016 
--Experimented with using command pattern for implementing subclass methods
+- Experimented with using command pattern for implementing subclass methods
 
 Monopoly v3.0 /16/03/2016 
--Added inheritance
+- Added inheritance
 
 Monopoly-v2.0 - 13/03/2016
--Added more features to basic Monopoly-v1.0 such as dice
+- Added more features to basic Monopoly-v1.0 such as dice
 
 Monopoly-v1.0 - 07/03/2016
--created very stripped down basic monopoly
+- created very stripped down basic monopoly game
