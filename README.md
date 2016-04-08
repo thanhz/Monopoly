@@ -10,7 +10,7 @@ Monopoly v6.0 26/03/2016
 -added askbuyer method is Monopoly class
 - added location in String instead of number in Monopoly class
 - added is bankrupt field is Player
-- -added jail boolean field in player
+- added jail boolean field in player
 - added hasWinner() method in Monopoly class
 - added getWinner() method in Monopoly class
 - added gameOver() method in Monopoly class
