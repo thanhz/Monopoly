@@ -4,10 +4,10 @@ Creation of the Monopoly board game using java
 By Thanh Lam
 
 Monopoly v6.0 26/03/2016
--Created UI class to simulate gameplay
--added toString method to player class
--changed parameter to string on monpoly getcurrent() from Player param
--added askbuyer method is Monopoly class
+- Created UI class to simulate gameplay
+- added toString method to player class
+- changed parameter to string on monpoly getcurrent() from Player param
+- added askbuyer method is Monopoly class
 - added location in String instead of number in Monopoly class
 - added is bankrupt field is Player
 - added jail boolean field in player
