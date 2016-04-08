@@ -32,28 +32,14 @@ public class Monopoly
 
     public void movePlayer()
     {
-        //         if(player.isBrokeOut())
-        //         { 
-        //             return squares[player.getCurrentPosition()]; 
-        //         }
+
         Player p = players[currentTurn];
         players[currentTurn].move();
-        //Util.print(player, player.getName() + " goes to " + squares[player.getCurrentPosition()].getName());
+
         int position = p.getLocation();
         System.out.println(p.getName() + " goes to.. " + board.getSquare(position));
         board.doAction(position,p);
-        //         doAction(player, this);
-        //         if(player.getMoney().
 
-        //         isBrokeOut()){
-        //             Util.print(player, player.getName() + " has been broke out!");
-        //             player.setBrokeOut(true);
-        //         }else{
-        //             if(count){
-        //                 player.nextTurn();
-        //             }
-        //         }
-        //         return squares[newPosition];
         nextTurn();
     }
 
