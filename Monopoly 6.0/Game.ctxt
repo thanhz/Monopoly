@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ movePlayer()
+comment1.params=
+comment1.target=void\ nextTurn()
+comment2.params=
+comment2.target=java.lang.String\ getCurrentPlayer()
+comment3.params=
+comment3.target=java.lang.String\ getPlayerLocation()
+comment4.params=
+comment4.target=boolean\ hasWinner()
+comment5.params=
+comment5.target=java.lang.String\ getWinner()
+comment6.params=
+comment6.target=boolean\ gameover()
+numComments=7
