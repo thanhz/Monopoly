@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=totalPlayers
+comment0.target=Monopoly(int)
+comment1.params=
+comment1.target=void\ movePlayer()
+comment10.params=fname
+comment10.target=void\ saveGame(java.lang.String)
+comment11.params=fname
+comment11.target=Monopoly\ loadGame(java.lang.String)
+comment2.params=
+comment2.target=void\ nextTurn()
+comment3.params=
+comment3.target=void\ addHouse()
+comment4.params=
+comment4.target=java.lang.String\ getCurrentPlayer()
+comment5.params=
+comment5.target=java.lang.String\ getCurrentPlayerName()
+comment6.params=
+comment6.target=java.lang.String\ getPlayerLocation()
+comment7.params=
+comment7.target=boolean\ hasWinner()
+comment8.params=
+comment8.target=java.lang.String\ getWinner()
+comment9.params=
+comment9.target=boolean\ gameover()
+numComments=12
