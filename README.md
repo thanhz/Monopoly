@@ -3,6 +3,15 @@ Creation of the Monopoly board game using java
 
 By Thanh Lam
 
+Monopoly v7.0 31/03/2016
+- show money when asking to buy properties
+- implement save/load functionality
+- implemented chance and community
+- added getoutjail variable
+- changed text output to look more net and tidy
+- Owners of properties now get rent form others landing
+- added owned and owner field to properties,utilities,trains
+
 Monopoly v6.0 26/03/2016
 - Created UI class to simulate gameplay
 - added a decrementMoney() method to avoid confusion

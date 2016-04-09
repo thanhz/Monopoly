@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=name\ tax
+comment0.target=Tax(java.lang.String,\ int)
+comment1.params=player
+comment1.target=void\ doAction(Player)
+comment2.params=freeparking
+comment2.target=void\ addMoney(FreeParking)
+comment3.params=
+comment3.target=java.lang.String\ toString()
+numComments=4
