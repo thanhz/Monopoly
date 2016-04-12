@@ -3,6 +3,9 @@ Creation of the Monopoly board game using java
 
 By Thanh Lam
 
+Monopoly v8.0 4/03/2016
+-Added A GUI class
+
 Monopoly v7.0 31/03/2016
 - show money when asking to buy properties
 - implement save/load functionality
