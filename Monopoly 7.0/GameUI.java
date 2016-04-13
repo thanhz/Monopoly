@@ -18,8 +18,8 @@ public class GameUI
         while (choice != 0)
         {            
             // process choice
-            if      (choice == 1){getOption2(); break;}
-            else if (choice == 2){loadGame();}
+            if      (choice == 1){newGame();break;}
+            else if (choice == 2){loadGame();break;}
             // output menu & get choice
             choice = getOption();
         }
@@ -43,12 +43,6 @@ public class GameUI
 
     private static void getOption2()
     {
-        System.out.println("Enter the number of Players");
-        int number = reader.nextInt();
-
-        game = new Monopoly(number);
-        System.out.println("New Game Created..");
-
         int choice = getOptions2();
         while (choice != 0)
         {            
@@ -62,7 +56,7 @@ public class GameUI
             //else if (choice == 7){decommissionShip();}
             else if (choice == 8){getState();}
             else if (choice == 9){saveGame();}
-            else if (choice == 10){getOption();break;}
+            else if (choice == 10){GameUI.main(new String[0]);break;}
             // output menu & get choice
             choice = getOptions2();
         }
@@ -70,7 +64,7 @@ public class GameUI
 
     private static int getOptions2()
     {
-        System.out.println(game.getCurrentPlayerName() + " turn ");
+        System.out.println(game.getCurrentPlayerName() + " turn "); //get the current players turn
         System.out.println("0. Quit Game");
         System.out.println("1. Roll Dice");
         //System.out.println("2. Check Properties");
@@ -114,13 +108,25 @@ public class GameUI
         game.saveGame(name);
     }
 
+    private static void newGame()
+    {
+        System.out.println("Enter the number of Players");
+        int number = reader.nextInt();
+
+        game = new Monopoly(number);
+        System.out.println("New Game Created..");
+        getOption2();
+    }
+
     private static void loadGame()
     {
         try
         {
             System.out.println("Enter a load file name");
             String name = reader.nextLine();
+            game = new Monopoly(0);
             game.loadGame(name);
+            getOption2();
         }
         catch (Exception e)   
         {
