@@ -3,12 +3,16 @@ Creation of the Monopoly board game using java
 
 By Thanh Lam
 
-Monopoly v9.0 13/03/2016
+Monopoly v9.0 17/04/2016
+- Fixed Monopoly class allowing user to enter 0
+- Fixed GameGUI not going back to correct menu after an incorrect input
+
+Monopoly v9.0 13/04/2016
 - Improved GUI
 - Added GUI methods into Monopoly class
 - Added gameover() to move() method in Monopoly class
 
-Monopoly v8.0 4/03/2016
+Monopoly v8.0 4/04/2016
 - Added A GUI class
 
 Monopoly v7.0 31/03/2016
