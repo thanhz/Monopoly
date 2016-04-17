@@ -116,13 +116,13 @@ public class GameGUI extends javax.swing.JFrame {
             .addGroup(mainMenuPanelLayout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(title)
-                .addGap(471, 471, Short.MAX_VALUE))
+                .addGap(484, 484, Short.MAX_VALUE))
             .addGroup(mainMenuPanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(mainMenuPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(mainMenuPanelLayout.createSequentialGroup()
                         .addComponent(newGame)
-                        .addContainerGap(644, Short.MAX_VALUE))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(mainMenuPanelLayout.createSequentialGroup()
                         .addGroup(mainMenuPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(loadGame)
@@ -197,7 +197,7 @@ public class GameGUI extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, startGamePanelLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(back)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 141, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(mrMonopoly1))
         );
         startGamePanelLayout.setVerticalGroup(
@@ -225,6 +225,7 @@ public class GameGUI extends javax.swing.JFrame {
         loadGamePanel.setBackground(new java.awt.Color(204, 255, 204));
         loadGamePanel.setPreferredSize(new java.awt.Dimension(800, 600));
 
+        title2.setBackground(new java.awt.Color(255, 204, 51));
         title2.setFont(new java.awt.Font("Tahoma", 0, 72)); // NOI18N
         title2.setForeground(new java.awt.Color(255, 0, 0));
         title2.setText("MONOPOLY");
@@ -439,6 +440,8 @@ public class GameGUI extends javax.swing.JFrame {
     catch (Exception e) {
         JOptionPane.showMessageDialog(this, "Must enter a number between 1-4",
                     "Error",JOptionPane.ERROR_MESSAGE);
+        startGamePanel.setVisible(true);
+        gamePanel.setVisible(false);
         }    
     }//GEN-LAST:event_startGameActionPerformed
 
@@ -489,9 +492,9 @@ public class GameGUI extends javax.swing.JFrame {
     private void loadGame1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loadGame1ActionPerformed
         try{
         String file = fileName.getText();
-        loadGamePanel.setVisible(false);
         game = new Monopoly(0);
         game.loadGame(file);
+        loadGamePanel.setVisible(false);
         gamePanel.setVisible(true);
         setStats();
     }

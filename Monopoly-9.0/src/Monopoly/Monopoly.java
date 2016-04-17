@@ -18,17 +18,17 @@ public class Monopoly implements Game, Serializable
     //public static void main(String[] args)
     public Monopoly(int totalPlayers)
     {       
-        if(totalPlayers>4)
+        if(totalPlayers<5 && totalPlayers> 0)
         {
-            System.out.println("Game can only be played with 4 players");
-        }
-        else{
             players = new Player[totalPlayers];
             this.totalPlayer = totalPlayers;
             for(int i = 0;i < players.length;i++)
             {
                 players[i] = new Player("Player " + (i + 1));
             }
+        }
+        else{      
+            System.out.println("Game can only be played with 4 players");
         }
     }
 
